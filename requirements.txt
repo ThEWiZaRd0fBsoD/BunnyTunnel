@@ -1,0 +1,11 @@
+# BunnyTunnel Server Dependencies
+
+# Quantum-safe cryptography and all encryption (ML-KEM-1024, ML-DSA-87, AES-GCM)
+# Using wolfSSL Python bindings for all cryptographic operations
+wolfssl>=5.7.0
+
+# DNS over QUIC support
+aioquic>=0.9.0
+
+# Type hints support (Python 3.9+)
+typing-extensions>=4.0.0
